@@ -938,9 +938,7 @@ color: #212121;
         
         }
         
-        .images p{
-        color: var(--text-color-second);
-        }
+        
         .images h3{
         color: var(--main-text-color);
         }
