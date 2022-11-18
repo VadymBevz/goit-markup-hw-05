@@ -300,7 +300,23 @@ html{
         .telefonstyle:focus {
         color: #2196F3;
         }
+
+        .site-nav{
+            position: relative;
+        }
         
+        .item .decoration::after{
+            content:'' ;
+        display: block;
+        width: 48px;
+        height: 4px;
+        background: #2196F3;
+        position: absolute;
+        border-radius: 2px;
+        top: 76px;
+        left: 0;
+        }
+
         .links{
             
             
