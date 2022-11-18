@@ -340,7 +340,7 @@ html{
         background: #2196F3;
         position: absolute;
         border-radius: 2px;
-        top: 76px;
+        bottom: 0;
         left: 0;
         }
 
