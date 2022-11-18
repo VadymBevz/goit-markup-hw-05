@@ -147,12 +147,14 @@ html{
         .site-nav{
         margin-left: 93px;
         display: flex;
+        
         }
     
        
     
         .site-nav .item:not(:last-child){
             margin-right: 40px;
+            
         }
         
         .site-nav a{
@@ -169,7 +171,12 @@ html{
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
+        transition-property: background-color;
+        transition-duration: 2000ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
+
+        
         
         .info{
         padding-top: 32px;
@@ -177,20 +184,24 @@ html{
         margin-left: auto;
         display: flex;
         justify-content: center;
+        
         }
 
         .meilstyle{
         color: #757575;
+        
         }
         
         .meil{
             margin-right: 50px;
+            
         }
         
         .meil-icon{
             display: flex;
         justify-content: left;
         fill:#757575;
+        
         }
 
         .meil-icon:hover{
@@ -202,12 +213,14 @@ html{
             margin-right: 10px;
             fill: currentColor;
             
+            
         }
         
         .telefon-icon{
             display: flex;
             justify-content: left;
             fill: #757575;
+            
         }
 
         .telefon-icon:hover{
@@ -230,6 +243,7 @@ html{
         .main-nav{
         display: flex;
         align-items: center;
+        
         }
     
         .line-buttons{
