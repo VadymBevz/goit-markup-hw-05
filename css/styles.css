@@ -521,7 +521,36 @@ html{
         .pictures-item{
         margin-right: 30px;
         }
-    
+
+        .work-description{
+        position: relative;
+        }
+
+        .work-text{
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        padding-top: 251px;
+        padding-right: 107px;
+        padding-bottom: 27px;
+        padding-left: 107px;
+        width: 156px;
+        height: 16px;
+        color: #FFFFFF;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 0.03;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 16px;
+        background: rgba(47, 48, 58, 0.8);
+        
+        }
+
+        
         .comand{
             
             display: flex;
