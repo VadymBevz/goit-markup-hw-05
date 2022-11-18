@@ -171,11 +171,16 @@ html{
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
-        transition-property: background-color;
-        transition-duration: 2000ms;
+        transition-property: color;
+        transition-duration: 250ms;
         transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
-
+        
+        .site-nav-two .link{
+            transition-property:color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+        }
         
         
         .info{
@@ -189,7 +194,9 @@ html{
 
         .meilstyle{
         color: #757575;
-        
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
         
         .meil{
@@ -214,6 +221,12 @@ html{
             fill: currentColor;
             
             
+        }
+
+        .telefonstyle{
+            transition-property:color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
         
         .telefon-icon{
@@ -416,7 +429,7 @@ html{
         background-color:rgba(0, 0, 0, 0.2);;
         }
 
-        .backdrop.is-hiden{
+        .backdrop.is-hidden{
         opacity: 0;
         pointer-events: none;
         }
@@ -670,6 +683,9 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
 
         .social-links-footer{
@@ -681,6 +697,9 @@ html{
             align-items: center;
             justify-content: center;
             background-color: rgba(255, 255, 255, 0.1);;
+            transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
 
         .social-links-team{
@@ -742,6 +761,9 @@ color: #212121;
 
         .brand-icon{
         fill: #AFB1B8;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
 
         
@@ -765,6 +787,9 @@ color: #212121;
             height: 92px;
             color: #AFB1B8;
             border-color: #AFB1B8;
+            transition-property: border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
         }
 
         .brand-link:hover{
@@ -785,6 +810,14 @@ color: #212121;
         /*Portfolio css */
         
         /*buttons*/
+         
+        .buttons .links{
+            transition-property: background-color;
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+        }
+
         .buttons .links:hover,
         .buttons .links:focus{
             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1006,14 +1039,17 @@ color: #212121;
         .adress{
             margin-right: 70px;
         margin-top: 20px;
+        
         }
     
         .meil{
         margin-top: 9px;
+        
         }
     
         .telefon{
         margin-top: 9px;
+        
         }
 
         .join-main{
