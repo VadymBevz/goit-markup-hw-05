@@ -184,7 +184,7 @@ html{
         
         
         .info{
-        
+        padding-top: 32px;
         padding-bottom: 32px;
         margin-left: auto;
         display: flex;
@@ -823,8 +823,7 @@ color: #212121;
         .buttons .links{
             transition-property: background-color, color;
             transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        }
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
         .buttons .links:hover,
         .buttons .links:focus{
@@ -940,7 +939,7 @@ color: #212121;
          }
     
          .second-flex p{
-         
+        
          }
     
          .second-flex:nth-last-child(-n+3) {
